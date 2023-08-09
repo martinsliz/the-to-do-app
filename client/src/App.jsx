@@ -1,10 +1,13 @@
 import { useState } from 'react'
-import './App.css'
+import ListHeader from './components/ListHeader'
+import './index.css'
 
 function App() {
   return (
     <>
-      <div>hello moto.</div>
+      <div className="app">
+        <ListHeader listName={'🛫 Vacation Checklist'} />
+      </div>
     </>
   )
 }
